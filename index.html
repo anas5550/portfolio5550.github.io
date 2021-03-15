@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Anas Siddiqui</title>
+    <!-- AOS animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="typed.min.js"></script>
+    <link rel="stylesheet" href="anas.css">
+  </head>
+  <body>
+
+  <header>
+    <nav>
+      <div class="logo">Anas Siddiqui</div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Skills</a>
+        <a href="#">Coding Profile</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  <div class="circle"></div>
+    <div class="container">
+      <div class="container-left">
+        <p>Hi, I am</p>
+        <h1>Anas Siddiqui</h1>
+        <p>I am a <span id="ani"></span></p>
+        <div class="btn">
+          <button type="button" name="button">Know More</button>
+        </div>
+          <img src="cartoon.jpg" alt="cartoon" id="welcome">
+      </div>
+      <div class="container-right">
+        <img src="my-img.jpg" alt="my-image">
+      </div>
+    </div>
+  </header>
+
+  <div id="skills">
+    <div class="section-info">
+      <h1>Skills</h1>
+      <p>What Skills I have ?</p>
+    </div>
+    <div class="skill-row">
+      <div class="skill-left-col" data-aos="zoom-in">
+        <div class="progress-div">
+        <p>
+          <span>HTML</span> <br>
+          <progress value="90" max="100"></progress>
+          <span>90%</span>
+        </p>
+        <p>
+          <span>CSS</span> <br>
+          <progress value="90" max="100"></progress>
+          <span>80%</span>
+        </p>
+        <p>
+          <span>JS</span> <br>
+          <progress value="50" max="100"></progress>
+          <span>50%</span>
+        </p>
+        <p>
+          <span>Bootstrap</span> <br>
+          <progress value="70" max="100"></progress>
+          <span>70%</span>
+        </p>
+      </div>
+      </div>
+      <div class="skill-right-col" data-aos="zoom-in">
+        <div class="progress-div">
+        <p>
+          <span>C++</span> <br>
+          <progress value="90" max="100"></progress>
+          <span>90%</span>
+        </p>
+        <p>
+          <span>C</span> <br>
+          <progress value="70" max="100"></progress>
+          <span>70%</span>
+        </p>
+        <p>
+          <span>Pyhton</span> <br>
+          <progress value="50" max="100"></progress>
+          <span>50%</span>
+        </p>
+        <p>
+          <span>Java</span> <br>
+          <progress value="50" max="100"></progress>
+          <span>50%</span>
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="coding-profile">
+    <div class="section-info">
+      <h1>Coding Profile</h1>
+    </div>
+    <div class="coding-row">
+        <div class="card" data-aos="fade-up">
+          <img src="codeforces-img.png" alt="">
+          <!-- <p>Codeforces</p> -->
+        </div>
+        <div class="card" data-aos="fade-right">
+          <img src="hackerearth.png" alt="">
+          <!-- <p>hackerearth</p> -->
+        </div>
+        <div class="card" data-aos="fade-left">
+          <img src="hackerrank.png" alt="">
+          <!-- <p>hackerrank</p> -->
+        </div>
+        <div class="card" data-aos="fade-up">
+          <img src="codechef.jpg" alt="">
+          <!-- <p>codechef</p> -->
+        </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-info">
+      <h1>Contact</h1>
+    </div>
+    <div class="contact-row">
+      <div class="contact-left-col" data-aos="fade-right">
+        <div class="contact-info">
+        <i class="fa fa-envelope"></i>
+        <p>anas91612@gmail.com</p>
+      </div>
+        <div class="contact-info">
+        <i class="fa fa-mobile"></i>
+        <p>123-4567-890</p>
+      </div>
+        <div class="contact-info">
+        <i class="fa fa-map-marker"></i>
+        <p>Lucknow, India</p>
+      </div>
+      </div>
+      <div class="contact-right-col" data-aos="fade-left">
+        <div class="contact-form">
+        <form action="">
+          <input class="name" type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea name="name" rows="8" cols="80" placeholder="Your Meassage Here..."></textarea>
+          <div class="btn">
+            <button type="button" name="button">Submit</button>
+          </div>
+          </form>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+
+
+  <section class="footer">
+    <div class="footer-row">
+      <div class="footer-left-col">
+            <p>Designed and developed by Anas Siddiqui. Copyright 2021</p>
+      </div>
+      <div class="footer-right-col">
+        <div class="footer-icon">
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-facebook-f"></i>
+        </div>
+      </div>
+  </div>
+
+  </section>
+  <!-- changing-content -->
+  <script>
+    let animate = new Typed('#ani',{
+      strings:["coder","developer","writer","singer"],
+      typeSpeed:200,
+      backSpeed:100,
+      loop:true,
+    })
+  </script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init({
+  offset: 300,
+  duration : 1200,
+  });
+  </script>
+  </body>
+</html>
